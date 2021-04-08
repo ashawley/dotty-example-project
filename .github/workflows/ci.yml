@@ -42,3 +42,5 @@ jobs:
 
       - name: Run project
         run: sbt run
+      - name: API docs
+        run: sbt doc
